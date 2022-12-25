@@ -344,7 +344,7 @@ document.body.appendChild(containerDiv);
                         const submitButton = document.createElement('button')
                         submitButton.className = 'btn btn-sm btn-primary'
                         submitButton.type ='button'
-                        submitButton.id = 'submitButton'
+                        submitButton.id = 'submit'
                         submitButton.onclick = submitForm;
                         submitButton.innerText = 'Submit'
                         submitButtonDiv.appendChild(submitButton)
